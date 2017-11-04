@@ -1,13 +1,17 @@
 (defproject clr.core.specs.alpha "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "Port of clojure.org/core.specs.alpha to ClojureCLR"
+  :url "https://github.com/clojure/clr.core.specs.alpha"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies []
+  :deploy-repositories [["clojars" {:url "https://clojars.org/repo/"
+                                    :sign-releases  false}]]
   :warn-on-reflection true
+  :source-paths ["src/main/clojure"]
+  :test-paths ["src/test/clojure"] 
   :min-lein-version "2.0.0"
   :plugins [[lein-clr "0.2.1"]]
-  :clr {:cmd-templates  {:clj-exe   [[?PATH "mono"] [CLJCLR14_40 %1]]
+  :clr {:cmd-templates  {:clj-exe   [[?PATH "mono"] [CLJCLR19_40 %1]]
                          :clj-dep   [[?PATH "mono"] ["target/clr/clj/Debug 4.0" %1]]
                          :clj-url   "http://sourceforge.net/projects/clojureclr/files/clojure-clr-1.4.1-Debug-4.0.zip/download"
                          :clj-zip   "clojure-clr-1.4.1-Debug-4.0.zip"
