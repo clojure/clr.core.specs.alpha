@@ -3,10 +3,19 @@
     <TargetFramework>net35</TargetFramework>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
   </PropertyGroup>
   <PropertyGroup>
     <RootNamespace>clojure</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Title>clojure.core.specs.alpha</Title>
+    <Product>clojure.core.specs.alpha</Product>
+    <AssemblyTitle>clojure.core.specs.alpha</AssemblyTitle>
+    <Description>Port of clojure.core.specs.alpha to ClojureCLR</Description>
+    <Copyright>Copyright © Rich Hickey, David Miller 2020</Copyright>
+    <Company>ClojureCLR contributors</Company>
+    <Version>0.1.24</Version>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="core\specs\alpha.clj" />
