@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net35</TargetFramework>
+    <TargetFrameworks>net461;netstandard2.1</TargetFrameworks>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
@@ -21,7 +21,10 @@
     <EmbeddedResource Include="core\specs\alpha.clj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="clojure.spec.alpha" Version="0.1.143" />
+    <PackageReference Include="clojure.spec.alpha" Version="0.1.187" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />
