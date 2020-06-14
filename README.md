@@ -6,17 +6,19 @@ From the parent's README:
 
 > core.specs.alpha is a Clojure library containining specs to describe Clojure core macros and functions.
 
-> Clojure 1.9 (still in alpha releases) depends on this library and provides it to users of Clojure. Thus, the recommended way to use this library is to add a dependency on the latest version of Clojure 1.9, rather than including it directly. In some cases, this library may release more frequently than Clojure. In those cases, you can explictly include the latest version of this library with the dependency info below.
+> Clojure 1.9 & following depend on this library and provides it to users of Clojure. Thus, the recommended way to use this library is to add a dependency on the latest version of Clojure 1.9, rather than including it directly. In some cases, this library may release more frequently than Clojure. In those cases, you can explictly include the latest version of this library with the dependency info below.
 
 # Releases
 
+The 0.2.45 release is equivalent to 0.2.44 in JVM-world.  Don't ask.
+
 Nuget reference:
 
-    PM> Install-Package clojure.core.specs.alpha -Version 0.1.24
+    PM> Install-Package clojure.core.specs.alpha -Version 0.2.45
 
 Leiningen/Clojars reference:
 
-   [org.clojure.clr/core.specs.alpha "0.1.24"]
+   [org.clojure.clr/core.specs.alpha "0.2.45"]
    
 ## Notes on the ported code ##
 
