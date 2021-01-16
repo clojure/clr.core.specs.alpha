@@ -1,9 +1,9 @@
-(defproject org.clojure.clr/core.specs.alpha "0.2.45"
+(defproject org.clojure.clr/core.specs.alpha "0.2.56"
   :description "Port of clojure.org/core.specs.alpha to ClojureCLR"
   :url "https://github.com/clojure/clr.core.specs.alpha"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure.clr/spec.alpha "0.1.187"]]
+  :dependencies [[org.clojure.clr/spec.alpha "0.2.194"]]
   :deploy-repositories [["clojars" {:url "https://clojars.org/repo/"
                                     :sign-releases  false}]]
   :warn-on-reflection true

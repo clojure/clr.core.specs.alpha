@@ -10,15 +10,13 @@ From the parent's README:
 
 # Releases
 
-The 0.2.45 release is equivalent to 0.2.44 in JVM-world.  Don't ask.
-
 Nuget reference:
 
-    PM> Install-Package clojure.core.specs.alpha -Version 0.2.45
+    PM> Install-Package clojure.core.specs.alpha -Version 0.2.56
 
 Leiningen/Clojars reference:
 
-   [org.clojure.clr/core.specs.alpha "0.2.45"]
+   [org.clojure.clr/core.specs.alpha "0.2.56"]
    
 ## Notes on the ported code ##
 
