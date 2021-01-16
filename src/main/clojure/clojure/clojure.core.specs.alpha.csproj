@@ -21,7 +21,7 @@
     <EmbeddedResource Include="core\specs\alpha.clj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="clojure.spec.alpha" Version="0.1.187" />
+    <PackageReference Include="clojure.spec.alpha" Version="0.2.194" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
