@@ -12,11 +12,11 @@ From the parent's README:
 
 Nuget reference:
 
-    PM> Install-Package clojure.core.specs.alpha -Version 0.2.56
+    PM> Install-Package clojure.core.specs.alpha -Version 0.2.62
 
 Leiningen/Clojars reference:
 
-   [org.clojure.clr/core.specs.alpha "0.2.56"]
+   [org.clojure.clr/core.specs.alpha "0.2.62"]
    
 ## Notes on the ported code ##
 

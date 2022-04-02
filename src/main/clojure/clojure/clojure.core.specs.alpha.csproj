@@ -13,9 +13,9 @@
     <Product>clojure.core.specs.alpha</Product>
     <AssemblyTitle>clojure.core.specs.alpha</AssemblyTitle>
     <Description>Port of clojure.core.specs.alpha to ClojureCLR</Description>
-    <Copyright>Copyright © Rich Hickey, David Miller 2020</Copyright>
+    <Copyright>Copyright © Rich Hickey, David Miller 2022</Copyright>
     <Company>ClojureCLR contributors</Company>
-    <Version>0.2.56</Version>
+    <Version>0.2.62</Version>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="core\specs\alpha.clj" />
