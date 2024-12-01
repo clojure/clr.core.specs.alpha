@@ -7,7 +7,7 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>clojure.core.specs.alpha</PackageId>
-		<RootNamespace>clojure.tools</RootNamespace>		
+		<RootNamespace>clojure.core.specs</RootNamespace>		
 		<Title>clojure.core.specs.alpha</Title>
 		<Product>clojure.core.specs.alpha</Product>
 		<AssemblyTitle>clojure.core.specs.alpha</AssemblyTitle>
