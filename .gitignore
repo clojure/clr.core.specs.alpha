@@ -15,7 +15,7 @@ pom.xml
 .lein-plugins
 .vs
 
-.cpcache\
+.cpcache/
 
 #Visual Studio artifacts
 bin
