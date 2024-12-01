@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+	<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+	<OutputType>Library</OutputType>
+	<NoStandardLibraries>false</NoStandardLibraries>
+	<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>clojure.core.specs.alpha</PackageId>
+		<RootNamespace>clojure.tools</RootNamespace>		
+		<Title>clojure.core.specs.alpha</Title>
+		<Product>clojure.core.specs.alpha</Product>
+		<AssemblyTitle>clojure.core.specs.alpha</AssemblyTitle>
+		<Authors>ClojureCLR contributors</Authors>
+		<Description>Port of clojure.core.specs.alpha to ClojureCLR</Description>
+		<Copyright>Copyright © Rich Hickey, 2024</Copyright>
+		<PackageLicenseExpression>EPL-1.0</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/clojure/clr.core.specs.alpha</RepositoryUrl>
+		<Company>ClojureCLR contributors</Company>
+		<PackageTags>Clojure;ClojureCLR</PackageTags>
+		<Version>0.4.74</Version> 
+	</PropertyGroup> 
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\clojure\clojure\core\specs\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="clojure.spec.alpha" Version="0.5.238" />
+  </ItemGroup>
+</Project>
