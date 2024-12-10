@@ -10,19 +10,21 @@ From the parent's README:
 
 # Releases
 
+Latest stable release: 0.4.74
+
+[deps.edn](https://clojure.org/guides/deps_edn) dependency information:
+
+	io.github.clojure/clr.core.specs.alpha {:git/tag "v0.4.74"  :git/sha "e53b34f"}
+
 Nuget reference:
 
-    PM> Install-Package clojure.core.specs.alpha -Version 0.2.62
+    PM> Install-Package clojure.core.specs.alpha -Version 0.4.74
 
-Leiningen/Clojars reference:
 
-   [org.clojure.clr/core.specs.alpha "0.2.62"]
+[Leiningen/Clojars](https://github.com/technomancy/leiningen) dependency information:
+
+   [org.clojure.clr/core.specs.alpha "0.4.74"]
    
-## Notes on the ported code ##
-
-We are working through a large number of updates that have been made to the original code.   
-
-## Usage
 
 
 # Copyright and License #
