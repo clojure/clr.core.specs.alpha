@@ -24,6 +24,6 @@
     <EmbeddedResource Include="..\..\clojure\clojure\core\specs\**\*" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="clojure.spec.alpha" Version="0.5.238" />
+    <PackageReference Include="clojure.spec.alpha" Version="0.6.249" />
   </ItemGroup>
 </Project>
