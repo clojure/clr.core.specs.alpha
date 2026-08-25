@@ -1,4 +1,4 @@
-(defproject org.clojure.clr/core.specs.alpha "0.4.74"
+(defproject org.clojure.clr/core.specs.alpha "0.5.81"
   :description "Port of clojure.org/core.specs.alpha to ClojureCLR"
   :url "https://github.com/clojure/clr.core.specs.alpha"
   :license {:name "Eclipse Public License"
