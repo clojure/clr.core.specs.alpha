@@ -1,11 +1,11 @@
 {:paths ["src/main/clojure"]
  :deps
-   {io.github.clojure/clr.spec.alpha {:git/tag "v0.6.250-beta1"  :git/sha "755b088"}}
+   {io.github.clojure/clr.spec.alpha {:git/tag "v0.6.250-beta2"  :git/sha "755b088"}}
 
  :aliases
  {:test
   {:extra-paths ["src/test/clojure"]
-   :extra-deps {io.github.dmiller/test-runner {:git/tag "v0.5.2clr" :git/sha "d6793a2"}}
+   :extra-deps {io.github.dmiller/test-runner {:git/tag "v0.5.2clr" :git/sha "0ec7d68"}}
    ;; :main-opts ["-m" "cognitect.test-runner" "-d" "src/test/clojure"]
    :exec-fn cognitect.test-runner.api/test
    :exec-args {:dirs ["src/test/clojure"]}}}}
