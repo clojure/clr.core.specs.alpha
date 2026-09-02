@@ -10,20 +10,20 @@ From the parent's README:
 
 # Releases
 
-Latest stable release: 0.5.81
+Latest stable release: 0.5.82
 
 [deps.edn](https://clojure.org/guides/deps_edn) dependency information:
 
-	io.github.clojure/clr.core.specs.alpha {:git/tag "v0.5.81"  :git/sha "a330cb1"}
+	io.github.clojure/clr.core.specs.alpha {:git/tag "v0.5.82"  :git/sha "32d90c0"}
 
 Nuget reference:
 
-    PM> Install-Package clojure.core.specs.alpha -Version 0.5.81
+    PM> Install-Package clojure.core.specs.alpha -Version 0.5.82
 
 
 [Leiningen/Clojars](https://github.com/technomancy/leiningen) dependency information:
 
-   [org.clojure.clr/core.specs.alpha "0.5.81"]
+   [org.clojure.clr/core.specs.alpha "0.5.82"]
    
 
 
