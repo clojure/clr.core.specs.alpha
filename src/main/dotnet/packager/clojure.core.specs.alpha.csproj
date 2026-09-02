@@ -18,7 +18,7 @@
 		<RepositoryUrl>https://github.com/clojure/clr.core.specs.alpha</RepositoryUrl>
 		<Company>ClojureCLR contributors</Company>
 		<PackageTags>Clojure;ClojureCLR</PackageTags>
-		<Version>0.5.81</Version> 
+		<Version>0.5.82-beta1</Version> 
 	</PropertyGroup> 
   <ItemGroup>
     <EmbeddedResource Include="..\..\clojure\clojure\core\specs\**\*" />
